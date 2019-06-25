@@ -41,7 +41,7 @@ class ProjectCard extends Component {
               </Modal.Description>
             </Modal.Content>
             <Modal.Actions>
-              <Button value={src} onClick={this.handleClick}>More</Button>
+              <Button primary value={src} onClick={this.handleClick}>More</Button>
             </Modal.Actions>
           </Modal>
         </TransitionablePortal>
