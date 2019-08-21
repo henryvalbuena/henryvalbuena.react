@@ -30,5 +30,4 @@ const projects = [
         src: 'https://github.com/henryvalbuena/SpaceBattle'
     }
 ]
-
 export default projects;
