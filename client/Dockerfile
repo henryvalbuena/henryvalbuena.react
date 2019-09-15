@@ -15,4 +15,4 @@ RUN yarn install
 
 COPY . /client/
 
-EXPOSE 4000
+EXPOSE 3000

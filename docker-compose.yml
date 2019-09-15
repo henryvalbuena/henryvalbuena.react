@@ -5,7 +5,7 @@ services:
     build: ./client
     command: yarn run start
     ports: 
-      - "4000:4000"
+      - "3000:3000"
     volumes:
       - ./client:/client
     links:
