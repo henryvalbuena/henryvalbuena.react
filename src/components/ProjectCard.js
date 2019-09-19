@@ -31,7 +31,7 @@ class ProjectCard extends Component {
           <Modal closeOnDimmerClick={false} closeOnDocumentClick={false} defaultOpen={true} size='large'>
             <Modal.Header>{name}</Modal.Header>
             <Modal.Content image>
-              <Image alt='Project Image' size='large' src={img} />
+              <Image alt='Project Image' size='huge' src={img} />
               <Modal.Description>
                 <h3>{title}</h3>
                 <p>{detail}</p>

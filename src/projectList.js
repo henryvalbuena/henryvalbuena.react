@@ -1,5 +1,15 @@
 const projects = [
     {
+        id: 'P05',
+        name: 'The Mother-ship',
+        title: 'RESTful API backend server',
+        meta: ['Django', 'Rest-Framework', 'Docker', 'EB', 'PostgreSQL'],
+        desc: 'Secure RESTful API to server frontend applications',
+        detail: 'Designed and developed a complete RESTful API with complete test coverage, admin access, user login, JWT. Provides frontend apps with the necessary endpoints to perform CRUD operations. Right now, the API powers the frontend app from my portfolio, including this website. Is still going through a lot of improvements, such a complete API documentation and security updates.',
+        img: './img/api-img.png',
+        src: 'https://github.com/henryvalbuena/the-mother-ship'
+    },
+    {
         id: 'P02',
         name: 'Java Application',
         title: 'Maze Solver',
@@ -28,6 +38,16 @@ const projects = [
         detail: '2D web browser game developed using Canvas API, DOM, and JavaScript to render the visuals, design and implement the game logic, and control user interaction. This was one of the projects I was doing while doing #100DaysofCode as part of my personal challenge to learn more things whiles coding. It is not polished, but the way I coded makes it easy to refactor and/or improve. It is the first game I ever created',
         img: './img/ran-image-d23.gif',
         src: 'https://github.com/henryvalbuena/SpaceBattle'
+    },
+    {
+        id: 'P04',
+        name: 'Admin Dashboard',
+        title: 'Dashboard to manage rental search',
+        meta: ['JavaScript', 'React.js', 'Node.js'],
+        desc: 'Admin dashboard developed using React.js, Redux.js, feeded with an Django RESTful API',
+        detail: 'In the struggle of looking for a place to move and after searching docens of rental websites, I decided to create a management dashboard where I can keep track of the apartments, viewing scheduled, status, applications, and others. The main idea was to have a place where my searches were consolidated, I could keep track of which rental agents I have called and so on. I was using an spreadsheet but that is not very handy. I created a single page app which had all the information I needed from all the listings. I could updated in real time using my phone or laptop. All the necessary information was at hand. By implementing React.js for the frontend, a handy admin dashboard tool, and my own RESTful API backend, delevoped with Django, with the necessary endpoints.',
+        img: './img/dashboard-img.png',
+        src: 'https://github.com/henryvalbuena/rental-seeker'
     }
 ]
 export default projects;

@@ -24,22 +24,19 @@ class App extends Component {
                 <SideMenu visible={this.state.visible}>
                     <Grid centered columns='equal'>
                         <Grid.Row>
-                            <h1 className='header'>Welcome</h1>
-                        </Grid.Row>
-                        <Grid.Row>
-                            <h3>A little about me</h3>
+                            <h1 className='header'>A little about me</h1>
                         </Grid.Row>
                         <Grid.Row>
                             <TextContainer text={aboutMe.intro}/>
                         </Grid.Row>
                         <Grid.Row>
-                            <h3>Interests</h3>
+                            <h2>Interests</h2>
                         </Grid.Row>
                         <Grid.Row>
                             <ListContainer list={aboutMe.interest}/>
                         </Grid.Row>
                         <Grid.Row>
-                            <h3>Most recent projects</h3>
+                            <h2>Most recent projects</h2>
                         </Grid.Row>
                         <Grid.Row>
                             <ProjectCardList projects={projects}/>
