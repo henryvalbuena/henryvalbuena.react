@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import TextContainer from '../components/TextContainer';
 import MenuBar from '../components/MenuBar';
 import ProjectCardList from '../components/ProjectCardList';
-import { Grid } from 'semantic-ui-react';
+import { Grid, Image } from 'semantic-ui-react';
 import projects from '../projectList';
 import SideMenu from '../components/SideMenu';
 import aboutMe from '../about';
@@ -22,9 +22,14 @@ class App extends Component {
             <div>
                 <MenuBar showSideMenu={this.showSideMenu}/>
                 <SideMenu visible={this.state.visible}>
-                    <Grid centered columns='equal'>
+                    <Grid centered columns='equal' >
                         <Grid.Row>
                             <h1 className='header'>A little about me</h1>
+                        </Grid.Row>
+                        <Grid.Row stretched={false} verticalAlign="middle" centered>
+                            <Grid.Column verticalAlign='middle'>
+                                <Image src='https://res.cloudinary.com/devhenry/image/upload/c_scale,h_682/v1569000107/Jenova/img/me02.jpg' size='medium' rounded fluid={false} verticalAlign='middle' />
+                            </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
                             <TextContainer text={aboutMe.intro}/>
