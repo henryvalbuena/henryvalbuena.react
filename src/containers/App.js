@@ -46,6 +46,10 @@ class App extends Component {
                         <Grid.Row>
                             <ProjectCardList projects={projects}/>
                         </Grid.Row>
+                        <Grid.Row>
+                            <p>Developed by <b>Henry Valbuena</b> 2019</p>
+                        </Grid.Row>
+                        <Grid.Row></Grid.Row>
                     </Grid>
                 </SideMenu>
             </div>

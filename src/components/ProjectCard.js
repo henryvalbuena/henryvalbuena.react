@@ -18,7 +18,7 @@ class ProjectCard extends Component {
         <Image alt='Project Image' src={img} wrapped ui={false} />
         <Card.Content>
           <Card.Header>{name}</Card.Header>
-          <Card.Meta>
+          <Card.Meta textAlign='center'>
             {meta.map((ele, idx) => 
               <span key={idx}>{ele}</span>
             )}
