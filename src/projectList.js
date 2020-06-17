@@ -1,7 +1,7 @@
 const projects = [
     {
         id: 'P01',
-        name: 'Udacity Late',
+        name: 'Udacity Latte Cafe',
         title: 'Full-stack REST application',
         meta: ['Flask', 'SQL-Alchemy', 'Docker', 'Nginx', 'Angular'],
         desc: 'Secure REST full-stack application with persistence',
