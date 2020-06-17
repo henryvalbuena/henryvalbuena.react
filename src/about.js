@@ -1,16 +1,15 @@
 const aboutMe = {
-    intro: ['Hi, I am Henry and coding has been my hobby since I can remember. I have a Electronic Engineering Bachelor and recently got a Computer Programmer Diploma. I am currently pursuing to do professionaly what I enjoy the most, solving problems with coding. If you want to know more hit me with an email or checkout my github or twitter account.'],
+    intro: [
+      "Hellow! Yes with a 'w'. I'm an Electronic Computer Programmer... Wow that sounds fancy and complex, right? Ok, maybe not, but I like to call my self that way. I started my professional career as an Electronic Engineer, after eight years or so I decided that I will follow my passion and make my hobby part of that career, so I went for a Computer Programmer Diploma after and here I am 🎉. And yes, you've guessed it! My hobby is programming. I've been doing it since I got my first computer, since then I haven't stopped 🤘 yeah!",
+    ],
     interest: [
-        'Blockchain',
-        'AI, Machine Learning, Deep Learning',
-        'Object-oriented Programming',
-        'Performance and Optimization',
-        'Solving problems',
-        'Crossfit',
-        'Nature',
-        'Learning',
-        'Helping however I can'
-    ]
-}
-
-export default aboutMe;
+      "Crypto",
+      "Performance and Optimization",
+      "Full-stack Development",
+      "Ethical Hacking",
+      "Quality Assurance",
+      "Automation",
+    ],
+  };
+  
+  export default aboutMe;

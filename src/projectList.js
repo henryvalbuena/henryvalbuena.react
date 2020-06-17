@@ -1,13 +1,13 @@
 const projects = [
     {
         id: 'P01',
-        name: 'The Mother-ship',
-        title: 'RESTful API backend server',
-        meta: ['Django', 'Rest-Framework', 'Docker', 'EB', 'PostgreSQL'],
-        desc: 'Secure RESTful API to server frontend applications',
-        detail: 'Designed and developed a complete RESTful API with complete test coverage, admin access, user login, JWT. Provides frontend apps with the necessary endpoints to perform CRUD operations. Right now, the API powers the frontend app from my portfolio, including this website. Is still going through a lot of improvements, such a complete API documentation and security updates.',
-        img: './img/api-img.png',
-        src: 'https://github.com/henryvalbuena/the-mother-ship'
+        name: 'Udacity Late',
+        title: 'Full-stack REST application',
+        meta: ['Flask', 'SQL-Alchemy', 'Docker', 'Nginx', 'Angular'],
+        desc: 'Secure REST full-stack application with persistence',
+        detail: 'Designed and developed full-stack application as part of the Udacity Full-Stack Nanodegree. The application whole project includes designing and implementation of the REST API, database models, IAM roles and permissions using Auth0, frontend and backend programming, testing and deployment using Docker containers. The project backend was build using Python Flask web framework, secured using JWT and role based access and permissions to CRUD operations backed up by a ORM persistance model using SQLite for development and Postgress for deployment. The frontend was built with JavaScript Angular and is powered by an Nginx configuration which serves the content.',
+        img: './img/udacity_late.png',
+        src: 'https://github.com/henryvalbuena/full-stack-project'
     },
     {
         id: 'P02',
@@ -41,16 +41,6 @@ const projects = [
     },
     {
         id: 'P05',
-        name: 'Admin Dashboard',
-        title: 'Dashboard to manage rental search',
-        meta: ['JavaScript', 'React.js', 'Node.js'],
-        desc: 'Admin dashboard developed using React.js, Redux.js, feeded with an Django RESTful API',
-        detail: 'In the struggle of looking for a place to move and after searching docens of rental websites, I decided to create a management dashboard where I can keep track of the apartments, viewing scheduled, status, applications, and others. The main idea was to have a place where my searches were consolidated, I could keep track of which rental agents I have called and so on. I was using an spreadsheet but that is not very handy. I created a single page app which had all the information I needed from all the listings. I could updated in real time using my phone or laptop. All the necessary information was at hand. By implementing React.js for the frontend, a handy admin dashboard tool, and my own RESTful API backend, delevoped with Django, with the necessary endpoints.',
-        img: './img/dashboard-img.png',
-        src: 'https://github.com/henryvalbuena/rental-seeker'
-    },
-    {
-        id: 'P06',
         name: 'Chat',
         title: 'Terminal Like Chat',
         meta: ['JavaScript', 'CSS', 'Node.js', 'Socket.io', 'Express.js'],
@@ -58,16 +48,6 @@ const projects = [
         detail: 'One room chat app that broadcast messagess among the connected users. It uses Socket.io to manage the web sockets and user identity. This project, will incorporate a built-in bot with commands that will provide information about me, my projects, and skills.',
         img: './img/chat_20190629.gif',
         src: 'https://github.com/henryvalbuena/chatbot'
-    },
-    {
-        id: 'P07',
-        name: 'Employee Directory',
-        title: 'Employee Directory Dashboard',
-        meta: ['Express.js', 'MongoDB', 'PostgreSQL', 'Forms'],
-        desc: 'Employee directory dashboard built with Postgres, MongoDB, and Express.js to manage persistence information',
-        detail: 'Employee directory management dashboard that uses Postgres as a data persistence software to hold the employee information inserted by the users. To manage the state of information, the app uses cookies and user authentication/authorization to display the corresponding information. It has web forms validations and server side validation as the basis to parse and securily put data in the database.',
-        img: './img/employee-dir.png',
-        src: 'https://github.com/henryvalbuena/employee-directory'
     }
 ]
 export default projects;
