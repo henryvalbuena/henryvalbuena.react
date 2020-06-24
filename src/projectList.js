@@ -6,31 +6,21 @@ const projects = [
         meta: ['Flask', 'SQL-Alchemy', 'Docker', 'Nginx', 'Angular'],
         desc: 'Secure REST full-stack application with persistence',
         detail: 'Designed and developed full-stack application as part of the Udacity Full-Stack Nanodegree. The application whole project includes designing and implementation of the REST API, database models, IAM roles and permissions using Auth0, frontend and backend programming, testing and deployment using Docker containers. The project backend was build using Python Flask web framework, secured using JWT and role based access and permissions to CRUD operations backed up by a ORM persistance model using SQLite for development and Postgress for deployment. The frontend was built with JavaScript Angular and is powered by an Nginx configuration which serves the content.',
-        img: './img/udacity_late.png',
+        img: './img/frontend_angular.gif',
         src: 'https://github.com/henryvalbuena/full-stack-project'
     },
     {
         id: 'P02',
-        name: 'Java Desktop Application',
-        title: 'Maze Solver',
-        meta: ['Java', 'DSA', 'DFS', 'API'],
-        desc: 'Maze solver application developed using Java',
-        detail: 'Designed to work with images of mazes, the idea is to process the image and parse the binary representation of the maze into a data structure. From this point, the graph algorithm to be used can work with the data and find the path from the start point to the exit. There is another module, which will process the result from the algorithm and draw the path found on the image from start to end.',
-        img: './img/maze04_finished.png',
-        src: 'https://github.com/henryvalbuena/MazeSolver'
+        name: 'Latte-Machine',
+        title: 'React frontend application',
+        meta: ['React.js', 'JavaScript', 'JWT', 'Auth0'],
+        desc: 'Frontend remake in React.js of the Udacity Latte Cafe',
+        detail: 'This is a frontend remake of the Udacity Latte Cafe full-stack project. I decided that I would use React (the previous was built using Angular) since I am very confortable and I enjoy using this framework better. This application has the same features that the previous one and some design and visual improvements. The application features IAM using Auth0, JWTs, and claims for permissions based on the user role.',
+        img: './img/frontend_react.gif',
+        src: 'https://github.com/henryvalbuena/latte-machine'
     },
     {
         id: 'P03',
-        name: 'Client-Server API',
-        title: 'Remote Manager',
-        meta: ['JavaScript', 'Node.js', 'C', 'C++', 'Linux', 'Shell Scripting'],
-        desc: 'Client side developed using C/C++ and Server side using Node.js, JavaScript and Shell Scripting',
-        detail: 'This application is based on two parts, the client and the server. The client, consist of a C/C++ application which encloses all the relevant processes to be able to: 1) connect with the server 2) to send and receive data 3) to work with the data or state of the server. The server is a combination of Node.js, JavaScript and Shell Scripts using Node\'s API',
-        img: './img/client_server.png',
-        src: 'https://github.com/henryvalbuena/cpp_nodejs_sockets'
-    },
-    {
-        id: 'P04',
         name: 'Desktop Web Browser Game',
         title: 'Space Battle',
         meta: ['JavaScript', 'HTML', 'Canvas', 'GPL'],
@@ -40,7 +30,7 @@ const projects = [
         src: 'https://github.com/henryvalbuena/SpaceBattle'
     },
     {
-        id: 'P05',
+        id: 'P04',
         name: 'Chat',
         title: 'Terminal Like Chat',
         meta: ['JavaScript', 'CSS', 'Node.js', 'Socket.io', 'Express.js'],

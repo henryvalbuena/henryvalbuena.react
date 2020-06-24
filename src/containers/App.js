@@ -47,7 +47,7 @@ class App extends Component {
                             <ProjectCardList projects={projects}/>
                         </Grid.Row>
                         <Grid.Row>
-                            <p>Developed by <b>Henry Valbuena</b> 2019</p>
+                            <p>Developed by <b>Henry Valbuena</b> 2020</p>
                         </Grid.Row>
                         <Grid.Row></Grid.Row>
                     </Grid>

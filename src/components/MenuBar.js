@@ -8,18 +8,18 @@ class MenuBar extends Component {
             <Menu inverted size='huge'>
                 <Menu.Item href={menuItems.redirectLinkedInd} target='_blank'
                     name={menuItems.main}>
-                    Henry Valbuena
+                    My LinkedIn
                 </Menu.Item>
                 <Menu.Item href={menuItems.redirectEmail} target='_blank'
                     className='itemMenu'
                     position='right'
                     name={menuItems.contact}>
-                    Contact
+                    Email Me
                 </Menu.Item>
                 <Menu.Item href={menuItems.redirectGitHub} target='_blank'
                     className='itemMenu'
                     name={menuItems.git}>
-                    Source Code
+                    Github
                 </Menu.Item>
                 <Button 
                     className='mobileMenu' 
