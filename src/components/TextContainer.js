@@ -3,14 +3,14 @@ import { Container } from 'semantic-ui-react'
 
 export default class TextContainer extends Component {
   pStyle = {
-    "font-size": "20px"
+    "fontSize": "20px"
   }
   render() {
     const  {text} = this.props;
     return (
       <Container className='intro' textAlign='left'>
-        {text.map((ele, idx) =>
-            <p style={this.pStyle} key={idx}>{ele}</p>
+        {text.map((ele, i) =>
+            <p style={this.pStyle} key={i}>{ele}</p>
         )}
       </Container>
     )

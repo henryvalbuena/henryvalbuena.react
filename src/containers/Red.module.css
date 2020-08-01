@@ -1,0 +1,184 @@
+.container {
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: var(--ubuntu-font);
+  background-color: var(--background-color);
+  font-size: 1.3em;
+  color: var(--text-color-all);
+}
+
+.main {
+  padding-top: 15vh;
+  margin: 0 auto;
+  text-align: center;
+  width: 70vw;
+  height: 90%;
+}
+
+.header-red {
+  margin: auto;
+  width: 100%;
+  left: 0;
+  right: 0;
+  padding-top: 40vh;
+  padding-bottom: 40vh;
+  position: absolute;
+  background-color: var(--background-color);
+  animation: header-up 1.5s ease-in 5s forwards;
+  z-index: 1;
+}
+
+.footer-desktop > a {
+  margin: 0 10px;
+}
+
+.project-a,
+.project-a:hover {
+  text-decoration: none;
+  color: var(--text-color-all);
+  outline: none;
+}
+
+.text-container {
+  margin: 0 10px;
+}
+
+.h2-headers {
+  margin: 10px 10px;
+  text-decoration: underline;
+  font-family: var(--vt-font);
+  color: var(--text-color);
+}
+
+.projects,
+.footer-desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--background-color);
+}
+
+.projects {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-desktop {
+  padding: 5px 0;
+}
+
+.footer-mobile {
+  display: none;
+  position: absolute;
+  top: 40vh;
+  left: 90vw;
+}
+.projects > div {
+  text-align: center;
+}
+
+.project {
+  margin: 0 10px;
+  padding: 5px;
+  border: 2px dashed var(--text-color);
+}
+
+.project:hover {
+  animation: pulse 0.5s ease-in-out infinite;
+}
+
+hr {
+  border: 1px solid var(--text-color);
+}
+
+i {
+  color: var(--text-color);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.desktop-h1,
+.mobile-h1 {
+  font-family: var(--vt-font);
+  color: var(--text-color);
+  border-right: solid 15px var(--text-color);
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 auto;
+  font-size: 2.2em;
+}
+
+.desktop-h1 {
+  animation: animated-text-desktop 4s steps(29, end) 1s 1 normal both,
+    animated-cursor 0.9s steps(29, end) infinite;
+}
+
+.mobile-h1 {
+  display: none;
+  animation: animated-text-mobile 1s steps(12, end) 1s 1 normal both,
+    animated-cursor 0.9s steps(29, end) infinite;
+}
+
+@keyframes animated-text-desktop {
+  from {
+    width: 0;
+  }
+  to {
+    width: 435px;
+  }
+}
+
+@keyframes animated-text-mobile {
+  from {
+    width: 0;
+  }
+  to {
+    width: 130px;
+  }
+}
+
+@keyframes animated-cursor {
+  from {
+    border-right-color: var(--text-color);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes header-up {
+  /* Ommited from since desktop and mobile versions have different values */
+  to {
+    padding: 0;
+  }
+}
+
+@keyframes pulse {
+  from {
+    border-color: var(--text-color);
+  }
+  to {
+    border-color: transparent;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .desktop-h1,
+  .footer-desktop {
+    display: none;
+  }
+  .mobile-h1,
+  .footer-mobile {
+    display: block;
+  }
+  .header-red {
+    animation: header-up 1.5s ease-in 2s forwards;
+    padding-top: 40vh;
+    padding-bottom: 50vh;
+  }
+}
