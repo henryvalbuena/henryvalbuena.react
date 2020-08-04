@@ -1,0 +1,846 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Blue 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="ui huge inverted menu"
+        >
+          <a
+            class="item"
+            href="https://www.linkedin.com/in/henry-valbuena/"
+            target="_blank"
+          >
+            My LinkedIn
+          </a>
+          <a
+            class="right item itemMenu"
+            href="mailto:henry.valbuena@outlook.com"
+            target="_blank"
+          >
+            Email Me
+          </a>
+          <a
+            class="item itemMenu"
+            href="https://github.com/henryvalbuena"
+            target="_blank"
+          >
+            Github
+          </a>
+          <button
+            class="ui black basic button mobileMenu"
+          >
+            <i
+              aria-hidden="true"
+              class="grid layout inverted icon"
+            />
+          </button>
+        </div>
+        <div>
+          <div
+            class="ui segment pushable"
+          >
+            <div
+              class="ui inverted vertical labeled icon ui push top thin sidebar menu"
+            >
+              <div
+                class="item"
+                target="_blank"
+              >
+                <i
+                  aria-hidden="true"
+                  class="home icon"
+                />
+                Contact
+              </div>
+              <div
+                class="item"
+                target="_blank"
+              >
+                <i
+                  aria-hidden="true"
+                  class="gamepad icon"
+                />
+                Source Code
+              </div>
+            </div>
+            <div
+              class="pusher"
+            >
+              <div
+                class="ui centered equal width grid"
+              >
+                <div
+                  class="row"
+                >
+                  <h1
+                    class="header"
+                  >
+                    A little about me
+                  </h1>
+                </div>
+                <div
+                  class="centered middle aligned row"
+                >
+                  <div
+                    class="middle aligned column"
+                  >
+                    <img
+                      class="ui medium rounded middle aligned image"
+                      src="https://res.cloudinary.com/devhenry/image/upload/c_scale,h_682/v1569000107/Jenova/img/me02.jpg"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="row"
+                >
+                  <div
+                    class="ui left aligned container intro"
+                  >
+                    <p
+                      style="font-size: 20px;"
+                    >
+                      Hi, I am Henry and I program computers and systems to make life of people easier or just simply to have fun. If you want to know more hit me with an email or checkout my github.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="row"
+                >
+                  <h2>
+                    Interests
+                  </h2>
+                </div>
+                <div
+                  class="row"
+                >
+                  <div
+                    class="ui container"
+                  >
+                    <div
+                      class="ui list"
+                      role="list"
+                    >
+                      <div
+                        class="item"
+                        role="listitem"
+                        style="font-size: 16px;"
+                      >
+                        Blockchain
+                      </div>
+                      <div
+                        class="item"
+                        role="listitem"
+                        style="font-size: 16px;"
+                      >
+                        Performance and Optimization
+                      </div>
+                      <div
+                        class="item"
+                        role="listitem"
+                        style="font-size: 16px;"
+                      >
+                        Full-stack Development
+                      </div>
+                      <div
+                        class="item"
+                        role="listitem"
+                        style="font-size: 16px;"
+                      >
+                        Functional training and programming ;)
+                      </div>
+                      <div
+                        class="item"
+                        role="listitem"
+                        style="font-size: 16px;"
+                      >
+                        Nature
+                      </div>
+                      <div
+                        class="item"
+                        role="listitem"
+                        style="font-size: 16px;"
+                      >
+                        Learning
+                      </div>
+                      <div
+                        class="item"
+                        role="listitem"
+                        style="font-size: 16px;"
+                      >
+                        The Matrix
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="row"
+                >
+                  <h2>
+                    Most recent projects
+                  </h2>
+                </div>
+                <div
+                  class="row"
+                >
+                  <div
+                    class="cards"
+                  >
+                    <a
+                      class="ui link card"
+                    >
+                      <div
+                        class="image"
+                      >
+                        <img
+                          alt="Project Image"
+                          src="https://res.cloudinary.com/devhenry/image/upload/v1596577743/Jenova/img/frontend_angular.gif"
+                        />
+                      </div>
+                      <div
+                        class="content"
+                      >
+                        <div
+                          class="header"
+                        >
+                          Udacity Latte Cafe
+                        </div>
+                        <div
+                          class="center aligned meta"
+                        >
+                          <span>
+                            Flask
+                          </span>
+                          <span>
+                            SQL-Alchemy
+                          </span>
+                          <span>
+                            Docker
+                          </span>
+                          <span>
+                            Nginx
+                          </span>
+                          <span>
+                            Angular
+                          </span>
+                        </div>
+                        <div
+                          class="description"
+                        >
+                          Secure REST full-stack application with persistence
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    class="cards"
+                  >
+                    <a
+                      class="ui link card"
+                    >
+                      <div
+                        class="image"
+                      >
+                        <img
+                          alt="Project Image"
+                          src="https://res.cloudinary.com/devhenry/image/upload/v1596577743/Jenova/img/frontend_react.gif"
+                        />
+                      </div>
+                      <div
+                        class="content"
+                      >
+                        <div
+                          class="header"
+                        >
+                          Latte-Machine
+                        </div>
+                        <div
+                          class="center aligned meta"
+                        >
+                          <span>
+                            React.js
+                          </span>
+                          <span>
+                            JavaScript
+                          </span>
+                          <span>
+                            JWT
+                          </span>
+                          <span>
+                            Auth0
+                          </span>
+                        </div>
+                        <div
+                          class="description"
+                        >
+                          Frontend remake in React.js of the Udacity Latte Cafe
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    class="cards"
+                  >
+                    <a
+                      class="ui link card"
+                    >
+                      <div
+                        class="image"
+                      >
+                        <img
+                          alt="Project Image"
+                          src="https://res.cloudinary.com/devhenry/image/upload/v1596578059/Jenova/img/web_space_shooter.gif"
+                        />
+                      </div>
+                      <div
+                        class="content"
+                      >
+                        <div
+                          class="header"
+                        >
+                          Desktop Web Browser Game
+                        </div>
+                        <div
+                          class="center aligned meta"
+                        >
+                          <span>
+                            JavaScript
+                          </span>
+                          <span>
+                            HTML
+                          </span>
+                          <span>
+                            Canvas
+                          </span>
+                          <span>
+                            GPL
+                          </span>
+                        </div>
+                        <div
+                          class="description"
+                        >
+                          Space battle game developed using JavaScript
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    class="cards"
+                  >
+                    <a
+                      class="ui link card"
+                    >
+                      <div
+                        class="image"
+                      >
+                        <img
+                          alt="Project Image"
+                          src="https://res.cloudinary.com/devhenry/image/upload/v1596577743/Jenova/img/chat_20190629.gif"
+                        />
+                      </div>
+                      <div
+                        class="content"
+                      >
+                        <div
+                          class="header"
+                        >
+                          Chat
+                        </div>
+                        <div
+                          class="center aligned meta"
+                        >
+                          <span>
+                            JavaScript
+                          </span>
+                          <span>
+                            CSS
+                          </span>
+                          <span>
+                            Node.js
+                          </span>
+                          <span>
+                            Socket.io
+                          </span>
+                          <span>
+                            Express.js
+                          </span>
+                        </div>
+                        <div
+                          class="description"
+                        >
+                          Terminal like chat built with CSS and JavaScript supported by Node.js, Express.js, and Socket.io in the backend
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="row"
+                >
+                  <p>
+                    Developed by 
+                    <b>
+                      Henry Valbuena
+                    </b>
+                     2020
+                  </p>
+                </div>
+                <div
+                  class="row"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="ui huge inverted menu"
+      >
+        <a
+          class="item"
+          href="https://www.linkedin.com/in/henry-valbuena/"
+          target="_blank"
+        >
+          My LinkedIn
+        </a>
+        <a
+          class="right item itemMenu"
+          href="mailto:henry.valbuena@outlook.com"
+          target="_blank"
+        >
+          Email Me
+        </a>
+        <a
+          class="item itemMenu"
+          href="https://github.com/henryvalbuena"
+          target="_blank"
+        >
+          Github
+        </a>
+        <button
+          class="ui black basic button mobileMenu"
+        >
+          <i
+            aria-hidden="true"
+            class="grid layout inverted icon"
+          />
+        </button>
+      </div>
+      <div>
+        <div
+          class="ui segment pushable"
+        >
+          <div
+            class="ui inverted vertical labeled icon ui push top thin sidebar menu"
+          >
+            <div
+              class="item"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                class="home icon"
+              />
+              Contact
+            </div>
+            <div
+              class="item"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                class="gamepad icon"
+              />
+              Source Code
+            </div>
+          </div>
+          <div
+            class="pusher"
+          >
+            <div
+              class="ui centered equal width grid"
+            >
+              <div
+                class="row"
+              >
+                <h1
+                  class="header"
+                >
+                  A little about me
+                </h1>
+              </div>
+              <div
+                class="centered middle aligned row"
+              >
+                <div
+                  class="middle aligned column"
+                >
+                  <img
+                    class="ui medium rounded middle aligned image"
+                    src="https://res.cloudinary.com/devhenry/image/upload/c_scale,h_682/v1569000107/Jenova/img/me02.jpg"
+                  />
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="ui left aligned container intro"
+                >
+                  <p
+                    style="font-size: 20px;"
+                  >
+                    Hi, I am Henry and I program computers and systems to make life of people easier or just simply to have fun. If you want to know more hit me with an email or checkout my github.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <h2>
+                  Interests
+                </h2>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="ui container"
+                >
+                  <div
+                    class="ui list"
+                    role="list"
+                  >
+                    <div
+                      class="item"
+                      role="listitem"
+                      style="font-size: 16px;"
+                    >
+                      Blockchain
+                    </div>
+                    <div
+                      class="item"
+                      role="listitem"
+                      style="font-size: 16px;"
+                    >
+                      Performance and Optimization
+                    </div>
+                    <div
+                      class="item"
+                      role="listitem"
+                      style="font-size: 16px;"
+                    >
+                      Full-stack Development
+                    </div>
+                    <div
+                      class="item"
+                      role="listitem"
+                      style="font-size: 16px;"
+                    >
+                      Functional training and programming ;)
+                    </div>
+                    <div
+                      class="item"
+                      role="listitem"
+                      style="font-size: 16px;"
+                    >
+                      Nature
+                    </div>
+                    <div
+                      class="item"
+                      role="listitem"
+                      style="font-size: 16px;"
+                    >
+                      Learning
+                    </div>
+                    <div
+                      class="item"
+                      role="listitem"
+                      style="font-size: 16px;"
+                    >
+                      The Matrix
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <h2>
+                  Most recent projects
+                </h2>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="cards"
+                >
+                  <a
+                    class="ui link card"
+                  >
+                    <div
+                      class="image"
+                    >
+                      <img
+                        alt="Project Image"
+                        src="https://res.cloudinary.com/devhenry/image/upload/v1596577743/Jenova/img/frontend_angular.gif"
+                      />
+                    </div>
+                    <div
+                      class="content"
+                    >
+                      <div
+                        class="header"
+                      >
+                        Udacity Latte Cafe
+                      </div>
+                      <div
+                        class="center aligned meta"
+                      >
+                        <span>
+                          Flask
+                        </span>
+                        <span>
+                          SQL-Alchemy
+                        </span>
+                        <span>
+                          Docker
+                        </span>
+                        <span>
+                          Nginx
+                        </span>
+                        <span>
+                          Angular
+                        </span>
+                      </div>
+                      <div
+                        class="description"
+                      >
+                        Secure REST full-stack application with persistence
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="cards"
+                >
+                  <a
+                    class="ui link card"
+                  >
+                    <div
+                      class="image"
+                    >
+                      <img
+                        alt="Project Image"
+                        src="https://res.cloudinary.com/devhenry/image/upload/v1596577743/Jenova/img/frontend_react.gif"
+                      />
+                    </div>
+                    <div
+                      class="content"
+                    >
+                      <div
+                        class="header"
+                      >
+                        Latte-Machine
+                      </div>
+                      <div
+                        class="center aligned meta"
+                      >
+                        <span>
+                          React.js
+                        </span>
+                        <span>
+                          JavaScript
+                        </span>
+                        <span>
+                          JWT
+                        </span>
+                        <span>
+                          Auth0
+                        </span>
+                      </div>
+                      <div
+                        class="description"
+                      >
+                        Frontend remake in React.js of the Udacity Latte Cafe
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="cards"
+                >
+                  <a
+                    class="ui link card"
+                  >
+                    <div
+                      class="image"
+                    >
+                      <img
+                        alt="Project Image"
+                        src="https://res.cloudinary.com/devhenry/image/upload/v1596578059/Jenova/img/web_space_shooter.gif"
+                      />
+                    </div>
+                    <div
+                      class="content"
+                    >
+                      <div
+                        class="header"
+                      >
+                        Desktop Web Browser Game
+                      </div>
+                      <div
+                        class="center aligned meta"
+                      >
+                        <span>
+                          JavaScript
+                        </span>
+                        <span>
+                          HTML
+                        </span>
+                        <span>
+                          Canvas
+                        </span>
+                        <span>
+                          GPL
+                        </span>
+                      </div>
+                      <div
+                        class="description"
+                      >
+                        Space battle game developed using JavaScript
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="cards"
+                >
+                  <a
+                    class="ui link card"
+                  >
+                    <div
+                      class="image"
+                    >
+                      <img
+                        alt="Project Image"
+                        src="https://res.cloudinary.com/devhenry/image/upload/v1596577743/Jenova/img/chat_20190629.gif"
+                      />
+                    </div>
+                    <div
+                      class="content"
+                    >
+                      <div
+                        class="header"
+                      >
+                        Chat
+                      </div>
+                      <div
+                        class="center aligned meta"
+                      >
+                        <span>
+                          JavaScript
+                        </span>
+                        <span>
+                          CSS
+                        </span>
+                        <span>
+                          Node.js
+                        </span>
+                        <span>
+                          Socket.io
+                        </span>
+                        <span>
+                          Express.js
+                        </span>
+                      </div>
+                      <div
+                        class="description"
+                      >
+                        Terminal like chat built with CSS and JavaScript supported by Node.js, Express.js, and Socket.io in the backend
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <p>
+                  Developed by 
+                  <b>
+                    Henry Valbuena
+                  </b>
+                   2020
+                </p>
+              </div>
+              <div
+                class="row"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

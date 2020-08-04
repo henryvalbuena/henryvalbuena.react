@@ -46,16 +46,20 @@ function Red(props) {
       </div>
       <div className={styles["footer-desktop"]}>
         {menuItems.social.map((ele, i) => (
-          <a key={i} href={ele.href} target="_blank" rel="noopener noreferrer">
-            <i className={ele.icon}></i>
-          </a>
+          <div key={i}>
+            <a href={ele.href} target="_blank" rel="noopener noreferrer">
+              <i className={ele.icon}></i>
+            </a>
+          </div>
         ))}
       </div>
       <div className={styles["footer-mobile"]}>
         {menuItems.social.map((ele, i) => (
-          <a key={i} href={ele.href} target="_blank" rel="noopener noreferrer">
-            <i className={ele.icon}></i>
-          </a>
+          <div key={i}>
+            <a href={ele.href} target="_blank" rel="noopener noreferrer">
+              <i className={ele.icon}></i>
+            </a>
+          </div>
         ))}
       </div>
     </div>
