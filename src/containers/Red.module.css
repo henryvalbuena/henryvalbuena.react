@@ -188,3 +188,10 @@ ul {
     padding-bottom: 50vh;
   }
 }
+
+@media only screen and (orientation: landscape) {
+  .main {
+    padding-top: 25vh;
+    overflow: auto;
+  }
+}
