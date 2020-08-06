@@ -10,10 +10,10 @@ function App(props) {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Main} />
+        <Route exact path="/portfolio" component={Main} />
         <Suspense fallback={<div>Loading...</div>}>
-          <Route path="/red" component={Red} />
-          <Route path="/blue" component={Blue} />
+          <Route path="/portfolio/red" component={Red} />
+          <Route path="/portfolio/blue" component={Blue} />
         </Suspense>
       </Switch>
     </Router>

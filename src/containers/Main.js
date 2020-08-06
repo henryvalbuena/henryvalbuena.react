@@ -9,13 +9,13 @@ const Main = () => (
       <h1>Do you really want to know?</h1>
       <h1>Choose</h1>
       <div className={styles["pills"]}>
-        <NavLink to="/red">
+        <NavLink to="/portfolio/red">
           <div className={styles["pills-container"]}>
             <i className={[styles["pill-red"], "pills icon"].join(" ")}></i>
             <span>Red Pill</span>
           </div>
         </NavLink>
-        <NavLink to="/blue">
+        <NavLink to="/portfolio/blue">
           <div className={styles["pills-container"]}>
             <i className={[styles["pill-blue"], "pills icon"].join(" ")}></i>
             <span>Blue Pill</span>
