@@ -21,7 +21,7 @@ Object {
             class="pills"
           >
             <a
-              href="/red"
+              href="/portfolio/red"
             >
               <div
                 class="pills-container"
@@ -35,7 +35,7 @@ Object {
               </div>
             </a>
             <a
-              href="/blue"
+              href="/portfolio/blue"
             >
               <div
                 class="pills-container"
@@ -70,7 +70,7 @@ Object {
           class="pills"
         >
           <a
-            href="/red"
+            href="/portfolio/red"
           >
             <div
               class="pills-container"
@@ -84,7 +84,7 @@ Object {
             </div>
           </a>
           <a
-            href="/blue"
+            href="/portfolio/blue"
           >
             <div
               class="pills-container"
