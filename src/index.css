@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+:root {
+  --pill-red: red;
+  --pill-blue: blue;
+  --text-color: rgb(0, 255, 0);
+  --text-color-all: white;
+  --background-color: #121212;
+  --ubuntu-font: "Ubuntu", sans-serif;
+  --vt-font: "VT323", monospace;
+}
